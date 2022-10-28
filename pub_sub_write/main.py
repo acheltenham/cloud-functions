@@ -38,4 +38,3 @@ def publish(request):
     except Exception as e:
         print(e)
         return (e, 500)
-## tging
