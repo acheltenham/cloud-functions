@@ -1,11 +1,11 @@
 steps:
-- name: 'gcr.io/buildpacks/builder'
+- name: 'gcr.io/buildpacks/builder:v1'
   args:
   - gcloud
   - functions
   - deploy
   - publish
   - --region=us-east1
-  - --source=pub_sub_write/
+  - --source=/pub_sub_write/
   - --trigger-http
   - --runtime=python310
