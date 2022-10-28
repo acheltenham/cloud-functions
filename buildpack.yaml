@@ -9,4 +9,3 @@ steps:
   - --source=/pub_sub_write/
   - --trigger-http
   - --runtime=python310
-  - --entry-point=publish
