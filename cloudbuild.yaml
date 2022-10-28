@@ -3,8 +3,9 @@ steps:
   args:
   - functions
   - deploy
-  - publish
+  - hello_world
   - --region=us-east1
   - --source=pub_sub_write/
   - --trigger-http
   - --runtime=python310
+  - --entry-point=hello_world
