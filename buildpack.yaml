@@ -1,5 +1,5 @@
 steps:
-- name: 'gcr.io/buildpacks/builder:v1'
+- name: 'https://gcr.io/buildpacks/builder:v1'
   args:
   - gcloud
   - functions
